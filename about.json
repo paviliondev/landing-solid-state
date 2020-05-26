@@ -1,7 +1,7 @@
 {
-  "name": "Solid State",
-  "about_url": null,
-  "license_url": null,
+  "name": "Landing Solid State",
+  "about_url": "https://raw.githubusercontent.com/paviliondev/landing-solid-state/master/README.md",
+  "license_url": "https://raw.githubusercontent.com/paviliondev/landing-solid-state/master/LICENSE.txt",
   "assets": {
     "fa-brands-400": "assets/fa-brands-400.woff2",
     "fa-regular-400": "assets/fa-regular-400.woff2",
