@@ -1,0 +1,75 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+@import 'libs/html-grid';
+@import 'fontawesome-all';
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic');
+
+$images: (
+	"pic01": $pic01,
+	"pic02": $pic02,
+	"pic03": $pic03,
+	"pic04": $pic04,
+	"pic05": $pic05,
+	"pic06": $pic06,
+	"pic07": $pic07,
+	"pic08": $pic08,
+);
+
+@each $class, $url in $images {
+  .image.#{$class} {
+    background-image: url($url);
+		width: 270px;
+		height: 270px;
+  }
+}
+
+/*
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+// Breakpoints.
+
+@include breakpoints((
+	xlarge:    (1281px,   1680px   ),
+	large:     (981px,    1280px   ),
+	medium:    (737px,    980px    ),
+	small:     (481px,    736px    ),
+	xsmall:    (361px,    480px    ),
+	xxsmall:   (null,     360px    )
+));
+
+// Base.
+
+@import 'base/reset';
+@import 'base/page';
+@import 'base/typography';
+
+// Component.
+
+@import 'components/row';
+@import 'components/section';
+@import 'components/form';
+@import 'components/box';
+@import 'components/icon';
+@import 'components/image';
+@import 'components/list';
+@import 'components/actions';
+@import 'components/icons';
+@import 'components/contact';
+@import 'components/pagination';
+@import 'components/table';
+@import 'components/button';
+@import 'components/features';
+
+// Layout.
+
+@import 'layout/header';
+@import 'layout/menu';
+@import 'layout/banner';
+@import 'layout/wrapper';
+@import 'layout/footer';
