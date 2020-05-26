@@ -1,0 +1,1 @@
+Adapted version of [Solid State](https://html5up.net/solid-state) by [HTML5 UP](https://html5up.net) for the [Discourse Landing Pages plugin](https://github.com/paviliondev/discourse-landing-pages)
